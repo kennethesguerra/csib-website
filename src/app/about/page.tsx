@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import PageBanner from "@/components/PageBanner";
-import { about } from "@/lib/content";
+import {
+  about,
+  presidentsMessage,
+  presidentsMessageAuthor,
+  presidentsMessageTitle,
+} from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "About",
@@ -57,8 +62,22 @@ export default function AboutPage() {
         <div className="mt-3 h-1 w-14 bg-brand-gold" />
         <p className="mt-6 leading-relaxed text-brand-ink/85">
           CSIB is guided by a school board and administrative team that work
-          closely with faculty and parents. (Replace this section with your
-          principal&apos;s message, staff directory, or organizational chart.)
+          closely with faculty and parents.
+        </p>
+        <br />
+        <h3>{presidentsMessageTitle}</h3>
+        <br />
+        {presidentsMessage.map((p, index) => (
+          <p
+            key={index}
+            className="mt-6 text-base leading-relaxed text-brand-ink/85"
+          >
+            {p}
+          </p>
+        ))}
+
+        <p className="mt-10 text-right text-sm font-semibold tracking-wide text-brand-ink sm:text-base">
+          {presidentsMessageAuthor}
         </p>
       </section>
     </>

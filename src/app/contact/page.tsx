@@ -25,9 +25,8 @@ export default function ContactPage() {
                 Address
               </dt>
               <dd className="mt-1">
-                123 Learning Avenue, Sample City, Province 0000
+                Masagana Subd., San Francisco, Bulacan, Philippines, 3017
                 <br />
-                (Replace with your campus address)
               </dd>
             </div>
             <div>

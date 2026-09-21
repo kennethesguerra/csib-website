@@ -61,3 +61,18 @@ export const about = [
 
   "College of St. Ignatius Bulacan remains a trusted partner in nation-building,nurturing individuals who are not only skilled and knowledgeablebut alsosocially responsible and future-ready."
 ]
+
+export const presidentsMessageTitle = "President's Message";
+
+export const presidentsMessageAuthor = "Ma. Zoraida M. Roderos, MBA";
+
+export const presidentsMessage = [
+  "Welcome, Ignatians!",
+  "We warmly welcome you to a meaningful and transformative chapter of your academic journey.",
+  "Your time in school is a period of growth, exploration, and preparation for your future, whether it leads you to higher education, employment, or entrepreneurship.",
+  "This Student Handbook has been thoughtfully prepared to serve as your guide throughout the school year. It contains essential information about our policies, academic expectations, student responsibilities, and the standards of conduct that help maintain a respectful, safe, and inclusive learning environment.",
+  "At College of St. Ignatius Bulacan, we are committed to nurturing not only your academic excellence but also your character, leadership, and life skills. We believe in your potential and are here to support you every step of the way.",
+  "May your journey in CSIB be filled with purpose, learning, and success. We look forward to witnessing your growth and achievements.",
+  "Once again, welcome, and best wishes for a productive and fulfilling school year!",
+];
+
